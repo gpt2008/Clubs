@@ -27,3 +27,6 @@
    sudo apt install -y openjdk-11-jdk
    sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu focal universe"
 sudo apt install netbeans
+mvn install:install-file     -Dfile=/uaithne-generator-0.4.3.1.jar     -DgroupId=org.uaithne     -DartifactId=uaithne-generator     -Dversion=0.4.3.1     -Dpackaging=jar
+  124  mvn install:install-file     -Dfile=uaithne-generator-0.4.3.1.jar     -DgroupId=org.uaithne     -DartifactId=uaithne-generator     -Dversion=0.4.3.1     -Dpackaging=jar
+
