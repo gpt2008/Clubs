@@ -1,0 +1,96 @@
+@import "css/variables";
+
+.veterinary_register {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(245, 225, 147);
+	border-radius: 4px;
+	width: 100%;
+	padding: 1rem;
+	gap: 1rem;
+
+	.veterinary_register__selectbox {
+		background-color: rgb(255, 255, 255);
+		border: none;
+		outline: none;
+		border-radius: 4px;
+		height: 2rem;
+		width: 100%;
+		text-align: start;
+	}
+}
+
+.data_component {
+	padding: 1rem;
+	background-color: white;
+	width: 100%;
+
+	.ant-collapse {
+		margin-top: 1rem;
+		background-color: whitesmoke;
+	}
+
+	.ant-collapse-header {
+		padding: 0 !important;
+	}
+
+	.form__row:last-child .ant-form-item {
+		margin-bottom: 0;
+	}
+
+	.form__row__input--label {
+		color: grey;
+	}
+}
+
+.data_info {
+	font-weight: bold;
+	color: $color-primary;
+	text-align: left;
+	margin: 0;
+	width: 100%;
+
+	& > .ant-collapse-header {
+		padding: 0.5rem !important;
+	}
+}
+
+.data_info__titulo {
+	font-weight: bold;
+	text-align: center;
+	color: $color-primary;
+}
+
+
+.data_form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+
+	.ant-upload-wrapper{
+		width: 100% !important;
+		align-items: center !important;
+	}
+	.ant-upload-btn{
+		width: 100% !important;
+		align-self: center !important;
+	}
+
+	.ant-space-compact {
+		input:first-child {
+			background-color: transparent;
+			width: 148px;
+		}
+
+		input:last-child {
+			color: rgba(0, 0, 0, 0.88);
+		}
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+

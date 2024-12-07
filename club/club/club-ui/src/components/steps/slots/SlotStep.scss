@@ -1,0 +1,18 @@
+@import "css/variables";
+
+.slots__container__footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 16px;
+}
+
+.slots__container__divider {
+	display: flex;
+	justify-content: center;
+
+	hr {
+		width: 75%;
+		border: 1px solid gainsboro;
+	}
+}

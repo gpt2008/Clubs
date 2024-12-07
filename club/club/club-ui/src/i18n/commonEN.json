@@ -1,0 +1,39 @@
+{
+    "access": {
+        "administrator": "Administrator",
+        "locationManager": "Location Manager",
+        "user": "User"
+    },
+    "buttons": {
+        "ok": "Ok",
+        "cancel": "Cancel",
+        "save": "Save",
+        "yes": "Yes",
+        "no": "No",
+        "close": "Close",
+        "next": "Next",
+        "back": "Back",
+        "apply": "Apply",
+        "reset": "Reset"
+    },
+    "titles": {
+        "actionNotAllowed": "Action not allowed",
+        "actionPerformed": "Action performed correctly",
+        "error" : "Nomenclator already exist"
+    },
+    "placeholders": {
+        "filterByName": "Filter by name...",
+        "startTypingResults": "Start typing to get results",
+        "enterName": "Enter name",
+        "enterPhoneNumber": "Enter phone number"
+    },
+    "messages": {
+        "areYouSure": "Are you sure?"
+    },
+    "newAppointmentPrestadorStatuses": {
+        "1": "Confirmed",
+        "2": "Cancelled",
+        "3": "Proposed",
+        "4": "Done"
+    }
+}

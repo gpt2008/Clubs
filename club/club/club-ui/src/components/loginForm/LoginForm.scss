@@ -1,0 +1,81 @@
+@import 'css/variables.scss';
+
+.login-form {
+    margin-top: 5vh;
+    background-color: $color-secondary;
+    width: 350px;
+    border-radius: 12px;
+
+    p {
+        margin-bottom: 0.75rem;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &-title {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+    }
+
+    &-text {
+        font-size: 1em;
+        color: white;
+    }
+
+    .ant-card-body {
+        padding: 0.75rem;
+    }
+
+    form {
+
+        background-color: white;
+        border: 1px solid whitesmoke;
+        border-radius: 8px;
+        padding: 0.75rem;
+
+        margin-bottom: 0.75rem;
+
+        .ant-form-item {
+            margin-bottom: 0.5rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            input {
+                box-shadow: none;
+            }
+        }
+
+        .ant-btn-primary {
+            background-color: $color-primary;
+        }
+    }
+
+}
+
+.login__form__userAccess{
+    padding-bottom: .5rem;
+  
+  }
+  
+  .container_forgotPass__link{
+      font-size: 1em;
+      color: grey; 
+      background-color: transparent; 
+      border: none;
+      padding: 0;
+      margin: 0;
+      cursor: pointer; 
+      text-decoration: none; 
+  }
+  
+  .container_forgotPass{
+      display: flex;
+      justify-content: center;
+      padding: 4px;
+  }
+

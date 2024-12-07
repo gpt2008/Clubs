@@ -1,0 +1,204 @@
+@import 'css/variables.scss';
+
+.provider-card__container {
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: $default-shadow-half;
+
+    .provider-card__info {
+
+        .provider-card__heading {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+
+            .provider-card-photo {
+                margin-right: 1rem;
+                border-radius: 50%;
+                overflow: hidden;
+
+                img {
+                    width: 4.5rem;
+                    height: 4.5rem;
+                }
+
+                .icon {
+                    width: 4.5rem;
+                    height: 4.5rem;
+                    color: gray;
+                }
+            }
+
+            .provider-card-name {
+                .provider-name {
+                    font-size: 1.15rem;
+                    font-weight: bold;
+                    color: black;
+                    display: flex;
+                    align-items: center;
+                }
+                .provider-speciality {
+                    font-size: 0.85rem;
+                    color: gray;
+                }
+            }
+        }
+
+        .provider-card__info-list {
+            font-size: 0.75rem;
+
+            .list-item {
+                display: flex;
+                align-items: center;
+
+                .bullet {
+                    color: black;
+                    width: 0.5rem;
+                    height: 0.5rem;
+                    margin-right: 0.5rem;
+                }
+            }
+
+            .info-data {
+                padding-left: 0.2rem;
+                color: $icon-color;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .info-nodata {
+                padding-left: 0.2rem;
+                color: gray;
+            }
+            .info-service-data {
+                padding-left: 0.2rem;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.avatar-crop {
+    .ant-upload-animate-inline {
+        position: absolute;
+        top: 0;
+        left: 8px;
+    }
+
+    .ant-upload-list-item-actions button {
+        border: none !important;
+    }
+
+    .ant-upload-picture-card-wrapper {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .ant-upload, .ant-upload-list-picture-card-container, .ant-upload-list-item {
+        border-radius: 50%;
+    }
+
+    .ant-upload-list-item-info {
+        border-radius: 50%;
+    }
+}
+
+.three-dots {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        border: none !important;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        svg {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.providers-dropdown {
+	//background-color: #ffffff;
+	//padding: 0.5rem;
+	/*border-radius: 0.25rem;
+	box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+		0 9px 28px 8px rgba(0, 0, 0, 0.05);*/
+
+	.providers-dropdown-title {
+		padding-bottom: 0.5rem;
+		font-size: 11px;
+		font-weight: bold;
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.default {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+	}
+
+	.providers-dropdown-item {
+		height: 2.75rem;
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+	}
+
+	.header--providers-dropdown-selector {
+		/*border: 1px solid #1890ff;
+		border-radius: 0.25rem;*/
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		cursor: pointer;
+
+		/*&.selected {
+			background-color: #1890ff;
+		}*/
+
+		.img-container {
+			margin-left: 0.5rem;
+			border-radius: 50%;
+			overflow: hidden;
+
+			img {
+				width: 2rem;
+				//font-size: 1.5rem;
+			}
+			.icon {
+				font-size: 2rem;
+				color: $icon-color;
+				line-height: 0px;
+				/*&.selected {
+					color: white;
+				}*/
+			}
+		}
+
+		.providers-name {
+			width: 80%;
+			//margin-left: 1.2rem;
+			overflow: hidden;
+			text-overflow: ellipsis;
+
+			/*&.selected {
+				font-weight: bold;
+				color: white;
+			}*/
+		}
+	}
+}

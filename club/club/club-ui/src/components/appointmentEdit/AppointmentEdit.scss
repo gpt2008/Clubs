@@ -1,0 +1,27 @@
+.appointment__edit__card--outer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.appointment__edit__card--inner {
+	width: 585px; //535px;
+	background-color: white;
+
+	h4 {
+		margin-top: 1rem;
+		text-align: left;
+	}
+
+	hr {
+		margin: 1rem 0;
+	}
+
+	@media (max-width: 768px) {
+		width: 450px;
+	}
+
+	@media (max-width: 480px) {
+		width: 320px;
+	}
+}

@@ -1,0 +1,437 @@
+// Margin
+.m {
+	&-8 {
+		margin: 8px;
+	}
+
+	&-16 {
+		margin: 16px;
+	}
+
+	&-32 {
+		margin: 32px;
+	}
+}
+
+.mt {
+	&-8 {
+		margin-top: 8px;
+	}
+
+	&-16 {
+		margin-top: 16px;
+	}
+
+	&-32 {
+		margin-top: 32px;
+	}
+}
+
+.mr {
+	&-8 {
+		margin-right: 8px;
+	}
+
+	&-16 {
+		margin-right: 16px;
+	}
+
+	&-32 {
+		margin-right: 32px;
+	}
+}
+
+.mb {
+	&-8 {
+		margin-bottom: 8px;
+	}
+
+	&-16 {
+		margin-bottom: 16px;
+	}
+
+	&-32 {
+		margin-bottom: 32px;
+	}
+}
+
+.ml {
+	&-8 {
+		margin-left: 8px;
+	}
+
+	&-16 {
+		margin-left: 16px;
+	}
+
+	&-32 {
+		margin-left: 32px;
+	}
+}
+
+.-mt-16 {
+	margin-top: -16px;
+}
+
+// Padding
+.p {
+	&-8 {
+		padding: 8px;
+	}
+
+	&-16 {
+		padding: 16px;
+	}
+
+	&-32 {
+		padding: 32px;
+	}
+}
+
+.pt {
+	&-8 {
+		padding-top: 8px;
+	}
+
+	&-16 {
+		padding-top: 16px;
+	}
+
+	&-32 {
+		padding-top: 32px;
+	}
+}
+
+.pr {
+	&-8 {
+		padding-right: 8px;
+	}
+
+	&-16 {
+		padding-right: 16px;
+	}
+
+	&-32 {
+		padding-right: 32px;
+	}
+}
+
+.pb {
+	&-8 {
+		padding-bottom: 8px;
+	}
+
+	&-16 {
+		padding-bottom: 16px;
+	}
+
+	&-32 {
+		padding-bottom: 32px;
+	}
+}
+
+.pl {
+	&-8 {
+		padding-left: 8px;
+	}
+
+	&-16 {
+		padding-left: 16px;
+	}
+
+	&-32 {
+		padding-left: 32px;
+	}
+}
+
+// Color
+.primary {
+	color: $color-primary;
+}
+
+.secondary {
+	color: $color-secondary;
+}
+
+.info {
+	color: $color-info;
+}
+
+.neutral {
+	color: $color-neutral;
+}
+
+.neutral-50 {
+	color: $color-neutral-50;
+}
+
+.back {
+	color: black;
+}
+
+.white {
+	color: white;
+}
+
+.bg {
+	&-primary {
+		background-color: $color-primary;
+	}
+
+	&-secondary {
+		background-color: $color-secondary;
+	}
+
+	&-info {
+		background-color: $color-info;
+	}
+
+	&-neutral {
+		background-color: $color-neutral;
+	}
+
+	&-back {
+		background-color: black;
+	}
+
+	&-white {
+		background-color: white;
+	}
+}
+
+// Font
+.f {
+	&s {
+		&-xxl {
+			font-size: 3rem;
+		}
+
+		&-xl {
+			font-size: 2rem;
+		}
+
+		&-lg {
+			font-size: 1.5rem;
+		}
+
+		&-md {
+			font-size: 1rem;
+		}
+
+		&-sm {
+			font-size: 0.75rem;
+		}
+	}
+	&w {
+		&-bolder {
+			font-weight: bolder;
+		}
+
+		&-bold {
+			font-weight: bold;
+		}
+
+		&-lighter {
+			font-weight: lighter;
+		}
+	}
+}
+
+// Height
+.h {
+	&-200 {
+		height: 200px;
+	}
+
+	&-250 {
+		height: 250px;
+	}
+
+	&-300 {
+		height: 300px;
+	}
+
+	&-350 {
+		height: 350px;
+	}
+
+	&-400 {
+		height: 400px;
+	}
+
+	&-450 {
+		height: 450px;
+	}
+
+	&-500 {
+		height: 500px;
+	}
+}
+
+// Width
+.w {
+	&-200 {
+		width: 200px;
+	}
+
+	&-250 {
+		width: 250px;
+	}
+
+	&-300 {
+		width: 300px;
+	}
+
+	&-350 {
+		width: 350px;
+	}
+
+	&-400 {
+		width: 400px;
+	}
+
+	&-450 {
+		width: 450px;
+	}
+
+	&-500 {
+		width: 500px;
+	}
+}
+
+// Minimum height and width
+.min {
+	&-h {
+		&-200 {
+			min-height: 200px;
+		}
+
+		&-250 {
+			min-height: 250px;
+		}
+
+		&-300 {
+			min-height: 300px;
+		}
+
+		&-350 {
+			min-height: 350px;
+		}
+
+		&-400 {
+			min-height: 400px;
+		}
+
+		&-450 {
+			min-height: 450px;
+		}
+
+		&-500 {
+			min-height: 500px;
+		}
+	}
+	&-w {
+		&-200 {
+			min-width: 200px;
+		}
+
+		&-250 {
+			min-width: 250px;
+		}
+
+		&-300 {
+			min-width: 300px;
+		}
+
+		&-350 {
+			min-width: 350px;
+		}
+
+		&-400 {
+			min-width: 400px;
+		}
+
+		&-450 {
+			min-width: 450px;
+		}
+
+		&-500 {
+			min-width: 500px;
+		}
+	}
+}
+
+// Maximum height and width
+.max {
+	&-h {
+		&-200 {
+			max-height: 200px;
+		}
+
+		&-250 {
+			max-height: 250px;
+		}
+
+		&-300 {
+			max-height: 300px;
+		}
+
+		&-350 {
+			max-height: 350px;
+		}
+
+		&-400 {
+			max-height: 400px;
+		}
+
+		&-450 {
+			max-height: 450px;
+		}
+
+		&-500 {
+			max-height: 500px;
+		}
+	}
+
+	&-w {
+		&-200 {
+			max-width: 200px;
+		}
+
+		&-250 {
+			max-width: 250px;
+		}
+
+		&-300 {
+			max-width: 300px;
+		}
+
+		&-350 {
+			max-width: 350px;
+		}
+
+		&-400 {
+			max-width: 400px;
+		}
+
+		&-450 {
+			max-width: 450px;
+		}
+
+		&-500 {
+			max-width: 500px;
+		}
+	}
+}
+
+// Placement
+.justify-center {
+	display: flex;
+	justify-content: center;
+}
+
+.align-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

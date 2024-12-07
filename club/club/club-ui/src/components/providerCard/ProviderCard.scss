@@ -1,0 +1,9 @@
+@import "css/variables.scss";
+
+.provider-card__container {
+	position: relative;
+	padding: $padding-container;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

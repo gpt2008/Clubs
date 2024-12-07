@@ -1,0 +1,41 @@
+@import 'css/variables.scss';
+
+.steps {
+    .icon {
+        color: $icon-color;
+    }
+    
+    
+}
+.ant-steps-item-tail ::after{
+    color:$icon-color;
+}
+.form {
+    .nextButton {
+        background-color: $icon-color;
+    }
+}
+.finalMessageContainer{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+    .finalMessage{
+        
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0px 4px inset grey;
+        text-align: left;
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 1rem;
+        width:fit-content;
+    }
+    .nextButton{
+        width: fit-content;
+    }
+}

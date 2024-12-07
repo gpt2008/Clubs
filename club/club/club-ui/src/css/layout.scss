@@ -1,0 +1,155 @@
+@import "~antd/dist/reset.css";
+@import "./common.scss";
+@import "./variables.scss";
+
+.container-app {
+	display: flex;
+	justify-content: center;
+	//Toda la pantalla menos el header
+	height: calc(100vh - 64px);
+	
+	& > main {
+		justify-content: center;
+		max-width: 1200px;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.container-app--inner {
+		max-width: 1500px;
+
+		aside {
+			background-color: transparent;
+		}
+
+		main {
+			background-color: whitesmoke;
+		}
+	}
+}
+
+.header-app {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border-bottom: 4px solid #f3d973;
+	padding: 0 26px;
+
+	.ant-row {
+		width: 100%;
+		flex-wrap: nowrap;
+	}
+
+	.header-organization-logo {
+		display: flex;
+		align-items: center;
+
+		img {
+			height: 48px;
+			position: relative;
+		}
+
+		&.isotipo img {
+			height: 48px;
+			margin-right: 16px;
+		}
+	}
+
+	&.header-app--login {
+		height: 96px;
+		justify-content: center;
+
+		.header-organization-logo.isotipo img {
+			height: 64px;
+			margin-right: 8px;
+		}
+
+		img {
+			height: 48px;
+		}
+	}
+}
+
+.header--options--icon {
+	width: 48px;
+	height: 48px;
+}
+
+.app__menu {
+	ul {
+		background-color: white;
+
+		.ant-menu-item:not(.ant-menu-item-selected) {
+			color: $color-primary !important;
+		}
+	}
+
+	.ant-menu-submenu {
+		color: $color-primary;
+	}
+
+	.ant-layout-sider-children {
+		color: $color-primary;
+	}
+
+	.ant-layout-sider-trigger {
+		background-color: white !important;
+		position: relative;
+	}
+}
+
+
+	.app__menu2 {
+		position: absolute; /* Posicionamiento absoluto para colocar correctamente el Sider */
+		top: 64px; /* Ajusta este valor según la altura de tu Header */
+		left: 0;
+		height: calc(100vh - 64px); /* Altura ajustada para que el Sider no se superponga con el Header */
+		width: 200px; /* Ancho del Sider */
+		z-index: 1000; /* Z-index para que el Sider no sea ocultado por otros elementos */
+	  }
+	  
+	/*.ant-layout-sider {
+		width: 250 !important;
+		height: 250 !important;
+		background-color: white !important;
+		position: absolute !important;
+		left: 0 !important;
+
+	}*/
+
+
+.main__content {
+	background: $bg-base;
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
+
+	.main__content__container {
+		background-color: $bg-main;
+		display: flex;
+		flex: 1 1 auto;
+		flex-direction: column;
+		gap: 2px;
+		width: 100%;
+		max-width: 855px;
+		box-sizing: border-box;
+		padding: 32px 16px;
+
+		@media (max-width: 1024px) {
+			padding: 24px 12px;
+		}
+
+		@media (max-width: 768px) {
+			padding: 16px 8px;
+		}
+	}
+}
+
+body.bg-less {
+	.main__content__container {
+		background-color: transparent;
+	}
+}

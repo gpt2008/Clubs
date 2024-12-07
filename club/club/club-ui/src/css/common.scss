@@ -1,0 +1,240 @@
+@import "./variables";
+@import "./utility";
+
+
+html {
+	height: 100%;
+	font-size: 16px;
+
+	@font-face {
+		font-family: "MyriadWebPro";
+		src: url("./fonts/myriadwebpro.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "MyriadWebPro";
+		src: url("./fonts/myriadwebpro-bold.ttf") format("truetype");
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "MyriadWebPro";
+		src: url("./fonts/myriadwebpro-condenseditalic.ttf") format("truetype");
+		font-weight: normal;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: "MyriadWebPro";
+		src: url("./fonts/myriadwebpro-light.ttf") format("truetype");
+		font-weight: 300;
+		font-style: normal;
+	}
+}
+
+#root {
+	background-color: rgb(243, 243, 243);
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+/** ANTD OVERRIDE **/
+.ant-layout {
+	background: linear-gradient(0deg, rgb(246, 246, 246) 0%, rgb(172, 172, 172) 100%);
+}
+
+.ant-collapse-expand-icon {
+	padding: 0;
+}
+.ant-collapse-header {
+	padding: 0 !important;
+}
+
+input::placeholder {
+	font-size: 0.75rem;
+}
+
+.input-right-align {
+    text-align: right;
+
+    input {
+        text-align: right;
+    }
+}
+
+.ant-form-large .ant-form-item .ant-form-item-label>label {
+	height: inherit;
+}
+
+:where(.css-dev-only-do-not-override-1hsxz8u).ant-btn {
+	line-height: 0px;
+}
+
+:root {
+	--fc-button-hover-bg-color: rgb(25, 172, 230);
+	--fc-button-hover-border-color: rgb(25, 172, 230);
+	--fc-button-active-bg-color: rgb(25, 172, 230);
+	--fc-button-active-border-color: rgb(25, 172, 230);
+	//--fc-today-bg-color: rgba(225, 168, 0, 0.3);
+	--fc-bg-event-color: rgba(149, 149, 149, 0.69);
+}
+
+.ant-input-status-error {
+	border: 1px solid #953033 !important; 
+}
+
+.questionnaireTree{
+
+    .questionnaire-tree__container {
+        //background-color: #EAE5CF;
+        border-radius: 8px;
+        padding: 0.75rem 0.5rem 0.5rem;
+    
+        .ant-tree {
+            background-color: transparent;
+            color: #676363;
+            
+            .ant-tree-node-content-wrapper.ant-tree-node-selected {
+                background-color: #8C8984;
+
+                span {
+                    color: white !important;
+                }
+            }
+
+            .ant-tree-treenode:hover {
+
+                .questionnaire__tools {
+                    visibility: visible;
+                }
+
+                &.ant-tree-treenode-selected .questionnaire__tools {
+                    background-color: white;
+                }
+            }
+
+            .questionnaire-tree__row {
+
+                display: flex;
+                align-items: center;
+
+                position: relative;
+                padding: 0 0.25rem;
+
+
+                .questionnaire__title-container {
+                    margin-right: 1rem;
+                    
+                    .questionnaire__title__Section {
+                        font-size: medium;
+                    }
+                    
+                }
+
+                .questionnaire__tools {
+                    border-radius: 2px;
+                    padding: 0.1rem 0.25rem;
+
+                    visibility: hidden;
+                    flex-shrink: 0;
+                    color: #1890ff;
+                    svg + svg {
+                        margin-left: 0.75rem;
+                    }
+
+                    .separator {
+                        width: 2rem;
+                        display: inline-block;
+                    }
+
+                    svg:not(.separator):not(.disabled):hover {
+                        color: gray;
+                    }
+
+                    .icon-alt {
+                        color: #1890ff;
+
+                        &.disabled {
+                            color: lightgray;
+                            cursor: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .questionnaire-tree--vacio {
+        height: 200px;
+        color: #676363;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .questionnaire-form__container {
+
+        border-radius: 8px;
+    
+        background-color: gainsboro;
+        overflow-y: scroll;
+        height: 100%;
+
+        .questionnaire-form__header {
+
+            background-color: #830065;
+            color: white;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+
+            position: relative;
+
+            & > svg:first-child {
+                margin-right: .5rem;
+            }
+
+            .close-icon {
+                position: absolute;
+                right: 12px;
+                top: 12px;
+                cursor: pointer;
+            }
+        }
+
+        .questionnaire-form__body {
+            padding: 1rem 2rem 2rem;
+
+            .ant-input-number {
+                width: 100%;
+
+                .ant-input-number-handler-wrap {
+                    display: none;
+                }
+
+                input {
+                    text-align: right;
+                }
+            }
+        }
+    }
+    
+    .questionnaire-form--vacio {
+        height: 200px;
+        background-color: whitesmoke;
+        color: darkgray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        text-align: center;
+    }
+}

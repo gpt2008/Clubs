@@ -1,0 +1,6 @@
+export default {
+    NOMANDATORY: 1,
+    MANDATORY: 2,
+    MANDATORYIFPREVIOUS: 3,
+    OPTIONALIFPREVIOUS: 4
+};

@@ -1,0 +1,46 @@
+{
+    "access": {
+        "administrator": "Administrador",
+        "locationManager": "Administrador de ubicación",
+        "user": "Usuario"
+    },
+    "buttons": {
+        "ok": "Aceptar",
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "yes": "Sí",
+        "no": "No",
+        "close": "Cerrar",
+        "next": "Siguiente",
+        "back": "Atrás",
+        "apply": "Aplicar",
+        "reset": "Reiniciar",
+        "reestablecer": "Reestablecer",
+		"download": "Descargar"
+    },
+    "titles": {
+        "actionNotAllowed": "Acción no permitida",
+        "actionPerformed": "Acción realizada correctamente",
+        "error" : "Ya existe el registro del nomenclator que se está intentando crear",
+        "actionNotPerformed": "No se ha podido realizadar la acción correctamente",
+        "notenoughvalues" : "Debe seleccionar más valores"
+    },
+    "placeholders": {
+        "filterByName": "Filtrar por nombre...",
+        "startTypingResults": "Comience a escribir para obtener resultados",
+        "enterName": "Ingrese nombre",
+        "enterPhoneNumber": "Ingrese número de teléfono"
+    },
+    "messages": {
+        "areYouSure": "¿Estás seguro?"
+    },
+    "newAppointmentPrestadorStatuses": {
+        "1": "Confirmado",
+        "2": "Cancelado",
+        "3": "Propuesto",
+        "4": "Realizado",
+        "5": "Pendiente de pago",
+        "6": "Propuesta expirada",
+        "7": "No realizada"
+    }
+}

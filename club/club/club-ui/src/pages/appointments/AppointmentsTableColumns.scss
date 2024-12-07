@@ -1,0 +1,20 @@
+.confirmed {
+	border-color: green !important;
+	color: green;
+}
+.cancelled {
+	border-color: red !important;
+	color: red;
+}
+.proposed {
+	border-color: #1890ff;
+	color: #1890ff;
+}
+.payment {
+	border-color: #fc9518 !important;
+	color: #fc9518;
+}
+.other-status {
+    border-color: gray !important;
+    color: gray;
+}

@@ -1,0 +1,79 @@
+$icon-color: #1890fc;
+$main-color: #001529;
+$header-bg-color: #001529;
+$color-dark: #0d5673;
+$color-less-dark: rgb(25, 172, 230);
+$color-sub: rgb(128, 128, 128);
+$color-less-sub: rgb(212, 212, 212);
+$color-alt: #e24077;
+$color-primary-text: rgb(0, 82, 146);
+
+$default-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+$default-shadow-half: 0 0 16px rgba(0, 0, 0, 0.15);
+
+$menu-width: 400px;
+$bc-height: 48px;
+
+$default-box-shadow: 0px 0px 64px -2px gainsboro;
+
+//////////////////////////////////////////////////////////
+$color-primary: rgb(0, 82, 146);
+$color-primary-75: rgba($color-primary, 0.75);
+$color-primary-50: rgba($color-primary, 0.5);
+$color-primary-25: rgba($color-primary, 0.25);
+
+$color-primary-alt: rgb(225, 168, 0);
+$color-primary-alt-75: rgba($color-primary-alt, 0.75);
+$color-primary-alt-50: rgba($color-primary-alt, 0.5);
+$color-primary-alt-25: rgba($color-primary-alt, 0.25);
+
+$color-secondary: rgb(245, 245, 245);
+$color-secondary-75: rgba($color-secondary, 0.75);
+$color-secondary-50: rgba($color-secondary, 0.5);
+$color-secondary-25: rgba($color-secondary, 0.25);
+
+$color-neutral: rgb(100, 100, 100);
+$color-neutral-50: rgba($color-neutral, 0.5);
+
+$color-info: rgb(142, 196, 237);
+$color-info-75: rgba($color-info, 0.75);
+$color-info-50: rgba($color-info, 0.5);
+$color-info-25: rgba($color-info, 0.25);
+
+$color-error: rgb(149, 48, 51);
+
+$gradient-primary: linear-gradient(0deg, rgb(246, 246, 246) 0%, rgb(172, 172, 172) 100%);
+$bg-base: $gradient-primary;
+$bg-main: rgb(242, 242, 242);
+$bg-container: white;
+
+$padding-main: 32px;
+$padding-container: 16px;
+$padding-container-small: 12px;
+$padding-content: 8px;
+
+$border-radius: 12px;
+$border-primary: 1px solid rgb(211, 211, 211);
+$border-secondary: dashed 1.5px $color-secondary-25;
+
+$shadow-primary: none; //0px 0px 16px $color-primary-75;
+$shadow-secondary: none; //0px 0px 16px $color-secondary-75;
+$shadow-neutral: none; //0px 0px 16px $color-neutral;
+$shadow-br-neutral: 1px 3px 5px $color-neutral-50;
+
+$default-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+$default-shadow-half: 0 0 16px rgba(0, 0, 0, 0.15);
+
+// Card
+$card-fc-primary: gray;
+$card-bg-primary: $color-secondary;
+$card-border-primary: none;
+$card-shadow-primary: $shadow-secondary;
+
+$card-fc-secondary: $color-secondary;
+$card-bg-secondary: white;
+$card-border-secondary: none;
+$card-shadow-secondary: none;
+
+// Label
+$label-color: $color-secondary;

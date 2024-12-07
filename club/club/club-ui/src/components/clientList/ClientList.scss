@@ -1,0 +1,57 @@
+@import "css/variables.scss";
+
+.table-container .table-clients{
+    .ant-table-expanded-row{
+        background-color:rgb(245, 225, 147) !important;
+    }
+}
+
+.listado_container{
+    min-height: 100%; 
+    position: relative;
+    padding: 1rem;
+}
+
+.table-button-bar {
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+
+.filters-drawer {
+    position: absolute;
+    
+    .ant-drawer-body { 
+        background-color: #F0F2F5;
+        padding: 16px 12px;
+    }
+
+   .ant-drawer-header{
+        padding: 8px !important;
+        background-color: $color-primary;
+    }
+
+    .ant-drawer-close{
+        color:#F0F2F5 !important;
+    }
+
+    .ant-drawer-mask {
+        background-color: transparent;
+    }
+}
+
+  .petinfo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 4px;
+    padding-left: 5rem;
+  }
+  
+  .petinfo-container__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 5fr; 
+    justify-items:flex-start; 
+    width: 50rem; 
+  }
+

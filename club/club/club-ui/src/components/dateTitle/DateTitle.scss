@@ -1,0 +1,18 @@
+@import "css/variables";
+
+.date__title__container {
+	display: flex;
+	align-items: baseline;
+	gap: 8px;
+
+	color: $color-primary-text;
+
+	.date__title__container__info {
+		align-content: baseline;
+		font-size: 1.2rem;
+
+		@media (max-width: 768px) {
+			font-size: 0.8rem;
+		}
+	}
+}

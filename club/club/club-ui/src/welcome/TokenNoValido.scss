@@ -1,0 +1,39 @@
+.oops__container {
+    max-width: 500px;
+
+    display: flex;
+    align-items: flex-start;
+
+    margin: 0.5rem 1rem 1rem;
+    padding: 0.5rem;
+    background-color: gainsboro;
+    border-radius: 8px;
+    @media (max-width:650px) {
+        flex-direction: column;
+    }
+
+    .oops__image {
+        
+        background: url('../images/brokenChain.png') no-repeat;
+        background-position: center center;
+        background-size: auto 100%;
+        border-radius: 4px;
+        width: 100%;
+        height: 100px;
+        max-width: 100px;
+
+        @media (max-width: 650px) {
+            align-self: center;
+            max-width: none;
+        }
+        
+    }
+
+    .oops__message {
+        font-size: 1.25rem;
+        width: 100%;
+        color: gray;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+    }
+}

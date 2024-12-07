@@ -1,0 +1,351 @@
+@import "css/variables.scss";
+
+.providers-dropdown {
+	//background-color: #ffffff;
+	//padding: 0.5rem;
+	/*border-radius: 0.25rem;
+	box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+		0 9px 28px 8px rgba(0, 0, 0, 0.05);*/
+
+	.providers-dropdown-title {
+		padding-bottom: 0.5rem;
+		font-size: 11px;
+		font-weight: bold;
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.default {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+	}
+
+	.provider-dropdown-items {
+		overflow-y: scroll;
+		height: 60vh;
+	}
+
+	.providers-dropdown-item {
+		height: 2.75rem;
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+	}
+
+	.header--providers-dropdown-selector {
+		/*border: 1px solid #1890ff;
+		border-radius: 0.25rem;*/
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		cursor: pointer;
+
+		/*&.selected {
+			background-color: #1890ff;
+		}*/
+
+		.img-container {
+			margin-left: 0.5rem;
+			border-radius: 50%;
+			overflow: hidden;
+
+			img {
+				width: 2rem;
+				//font-size: 1.5rem;
+			}
+			.icon {
+				font-size: 2rem;
+				color: $icon-color;
+				line-height: 0px;
+				/*&.selected {
+					color: white;
+				}*/
+			}
+		}
+
+		.providers-name {
+			width: 80%;
+			//margin-left: 1.2rem;
+			overflow: hidden;
+			text-overflow: ellipsis;
+
+			/*&.selected {
+				font-weight: bold;
+				color: white;
+			}*/
+		}
+	}
+}
+
+.prestador_schedule_dropdown__container {
+	display: flex;
+	height: 2.75rem;
+	max-width: 45%;
+
+	button {
+		height: 100%;
+		width: 3rem;
+		border-top-left-radius: 0 !important;
+		border-bottom-left-radius: 0 !important;
+	}
+
+	.prestador_schedule_dropdown_selector {
+		box-shadow: $default-shadow-half;
+		background-color: white;
+		border-top-left-radius: 0.25rem !important;
+		border-bottom-left-radius: 0.25rem !important;
+		padding: 2px 16px;
+		max-width: 350px;
+		min-width: 100px;
+		overflow: hidden;
+		height: 100%;
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+
+		position: relative;
+
+		.prestador_schedule_dropdown_selector-logo-container {
+			height: 100%;
+			position: relative;
+			line-height: 1;
+
+			.prestador_schedule_dropdown_selector-logo {
+				height: 100%;
+				position: relative;
+				line-height: 1;
+				overflow: hidden;
+				display: flex;
+				align-items: center;
+
+				img {
+					border-radius: 50%;
+					max-height: 32px;
+				}
+
+				.icon {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					height: 100%;
+					font-size: 2.65rem;
+					color: $icon-color;
+				}
+			}
+		}
+
+		.prestador_schedule_dropdown_selector-name {
+			margin-left: 1rem;
+			font-weight: bold;
+			font-size: 1.5rem;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+
+			color: $header-bg-color;
+		}
+	}
+}
+
+.app-calendar__container {
+	background-color: white;
+	margin-top: 1rem !important;
+	border-radius: 0.25rem;
+}
+
+._{
+	background-color: black;
+}
+
+.app-calendar {
+	margin: 0 auto;
+
+	.fc-timegrid-slot {
+		cursor: pointer;
+		height: 2rem !important;
+	}
+
+	.fc .fc-button-primary:not(:disabled):active,
+	.fc .fc-button-primary:not(:disabled).fc-button-active,
+	.fc .fc-button-primary {
+		background-color: $icon-color;
+		border-color: $icon-color;
+	}
+	a {
+		color: black;
+	}
+
+	.fc-bg-event {
+		cursor: pointer;
+	}
+}
+
+.appointment-form__container {
+	.icon {
+		font-size: 1.35rem;
+	}
+	.ant-form-item-has-error {
+		.ant-radio-group {
+			border: 0;
+		}
+		.ant-radio-inner {
+			border-color: red;
+		}
+	}
+	.form-header {
+		width: 100%;
+		text-align: center;
+	}
+
+	.appointment-form-header {
+		margin-bottom: 1.5rem;
+		padding: 1rem;
+		background-color: whitesmoke;
+		border-radius: 8px;
+		width: 80%;
+		display: inline-block;
+	}
+	.manager-data {
+		margin-top: -1.2rem;
+		font-size: 12px;
+		font-style: italic;
+	}
+	.red-border{
+		.ant-checkbox-inner{
+			border-color: red;
+		}
+	}
+	
+}
+
+.button__calendar {
+	width: 2.5rem;
+	margin-left: -0.8rem;
+	margin-top: 1.8rem;
+}
+
+.appointment_status_container {
+	width: 100%;
+	padding: 0 1rem;
+	margin-bottom: 20px;
+
+	.appointment_status_button {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&.confirmed {
+			border-color: green !important;
+			color: green;
+		}
+		&.cancelled {
+			border-color: red !important;
+			background-color: red;
+		}
+		&.proposed {
+			border-color: #1890ff;
+			color: #1890ff;
+		}
+
+		&.payment {
+			border-color: #fc9518 !important;
+			color: #fc9518;
+		}
+
+		div {
+			display: flex;
+			align-items: center;
+		}
+
+		span {
+			margin-left: 0.5rem;
+			font-size: 10px;
+
+			b {
+				margin-right: 0.2rem;
+				font-size: 12px;
+			}
+		}
+
+		.appointment_history_date {
+			display: flex;
+			align-items: center;
+			color: black;
+			font-size: 12px;
+
+			svg {
+				margin-left: 0.2rem;
+			}
+		}
+	}
+}
+
+.status-history-container {
+	padding: 0 15px;
+	background-color: white;
+	box-shadow: $default-shadow-half;
+	border-radius: 5px;
+
+	.status-history {
+		padding: 5px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&.confirmed {
+			color: green;
+		}
+		&.cancelled {
+			color: red;
+		}
+		&.payment {
+			color: #fc9518;
+		}
+		&.proposed {
+			color: #1890ff;
+		}
+
+		div {
+			display: flex;
+			align-items: center;
+		}
+
+		span {
+			margin-left: 0.5rem;
+			font-size: 10px;
+
+			b {
+				margin-right: 0.2rem;
+				font-size: 12px;
+			}
+		}
+
+		.appointment_history_date {
+			display: flex;
+			align-items: center;
+			color: black;
+			font-size: 12px;
+
+			svg {
+				margin-left: 0.2rem;
+			}
+		}
+	}
+}
+
+.agendas-row{
+
+	@media (max-width: 768px) {
+		.Row{
+			flex-direction: column;
+		}
+	}
+}

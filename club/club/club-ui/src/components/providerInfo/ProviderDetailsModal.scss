@@ -1,0 +1,116 @@
+@import "css/variables";
+
+.provider__sheet__container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+    padding: 0px;
+	background-color: $color-secondary;
+
+	.provider__info {
+		padding: 16px 16px 16px 16px;
+		display: flex;
+
+		.provider__info__avatar {
+			margin-right: 1rem;
+			border-radius: 50%;
+			width: fit-content;
+
+			img {
+				width: 128px;
+				height: 128px;
+				overflow: hidden;
+			}
+
+			.icon {
+				width: 128px;
+				height: 128px;
+				color: gray;
+			}
+		}
+
+		.provider__info__description {
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
+		}
+	}
+
+	.provider__data__card--single {
+		display: flex;
+        flex-direction: column;
+		gap: 8px;
+		padding: 16px;
+
+        .provider__data__card__title {
+            display: flex;
+            gap: 8px;
+
+            .provider__data__card__icon {
+                font-size: 20px;
+                color: $color-primary;
+            }
+        }
+
+        .provider__data__card__tags__container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 4px;
+        }
+
+        .provider__data__card__locations {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+	}
+
+    .provider__data__card--double {
+		display: flex;
+		//gap: 16px;
+		border: none
+	}
+
+	.provider__data__card__checkbox-container {
+		display: flex;
+		flex-direction: column;
+		gap: 10px; 
+		padding-left:32px;
+		color: black !important;
+	}
+
+	.provider__data__card__checkbox-container .ant-checkbox-wrapper {
+		color: $color-primary; 
+		font-weight: 500;
+	  }
+	  
+	  .provider__data__card__checkbox-container .ant-checkbox-wrapper .ant-checkbox-disabled .ant-checkbox-inner {
+		border-color: $color-primary; 
+	  }
+	  
+	  .provider__data__card__checkbox-container .ant-checkbox-wrapper .ant-checkbox-disabled .ant-checkbox-inner::after {
+		border-color: $color-primary; 
+	  }
+
+    .card-primary {
+        padding: 16px;
+        border-radius: $border-radius;
+        background-color: $card-bg-primary;
+        border: $card-border-primary;
+        color: $card-fc-primary;
+        box-shadow: $card-shadow-primary;
+    
+        p {
+            font-size: 0.75rem;
+        }
+    }
+    
+    .card-primary--noBorder{
+        padding: 16px;
+        border: none;
+        border-radius: 0px !important;
+        box-shadow: $card-shadow-primary;
+        background-color: white !important;
+    }
+
+}

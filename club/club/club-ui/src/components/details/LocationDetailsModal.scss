@@ -1,0 +1,145 @@
+@import "css/variables";
+
+.location__details__modal {
+	min-width: 1000px;
+
+	@media (max-width: 1000px) {
+		min-width: 900px;
+	}
+
+	@media (max-width: 768px) {
+		min-width: 0px;
+	}
+}
+
+.map {
+	border: $border-primary;
+	border-radius: $border-radius;
+	height: 100%;
+	width: 100%;
+}
+
+.tag {
+	color: $color-primary;
+	border-color: color-mix(in srgb, $color-primary 50%, transparent);
+	background-color: color-mix(in srgb, $color-primary 5%, transparent);
+	padding: 4px 8px;
+	margin: 0;
+}
+
+.location__details__modal__container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	.location__details__modal__container__hero__image {
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 128px;
+		border-radius: $border-radius;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.location__details__card--single {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding: 16px;
+		min-height: 200px;
+
+		.location__details__card__title {
+			display: flex;
+			gap: 8px;
+
+			.location__details__card__icon {
+				font-size: 20px;
+				color: $color-primary;
+			}
+		}
+
+		.location__details__card__details {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+
+			.location__details__card__details__location__dot {
+				color: #ae5050;
+			}
+		}
+
+		.location__details__card__details__icons {
+			font-size: 24px;
+			display: flex;
+			gap: 12px;
+			flex-wrap: wrap;
+			padding: 8px 0;
+
+			i {
+				color: $color-primary;
+			}
+		}
+
+        .location__details__card__images {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+        }
+
+		.location__details__card__specialities {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+		}
+
+		.location__details__card__providers {
+			display: flex;
+			flex-direction: column;
+			gap: 8px;
+		}
+	}
+
+	.location__details__card--double {
+		display: flex;
+		gap: 16px;
+		min-height: 200px;
+	}
+}
+
+.card-primary {
+    padding: 16px;
+    border-radius: $border-radius;
+    background-color: $card-bg-primary;
+    border: $card-border-primary;
+    color: $card-fc-primary;
+    box-shadow: $card-shadow-primary;
+
+    p {
+        font-size: 0.75rem;
+    }
+}
+
+.card-secondary {
+	padding: $padding-container-small;
+	border-radius: $border-radius;
+	background-color: $card-bg-secondary;
+	border: $card-border-secondary;
+	color: $card-fc-secondary;
+	box-shadow: $card-shadow-secondary;
+
+	@media (max-width: 480px) {
+		flex-direction: column;
+	}
+}
+
+.location__details__card--schedule {
+	display: flex;
+	flex-direction: column;
+	max-height: 400px;
+	overflow-y: scroll;
+}

@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/dentycard-policlinico-bo/static/css/main.1e1e08eb.css",
+    "main.js": "/dentycard-policlinico-bo/static/js/main.7c75f8f0.js",
+    "static/media/fa-regular-400.ttf": "/dentycard-policlinico-bo/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/fa-solid-900.ttf": "/dentycard-policlinico-bo/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/fa-regular-400.woff2": "/dentycard-policlinico-bo/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-solid-900.woff2": "/dentycard-policlinico-bo/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/fa-brands-400.ttf": "/dentycard-policlinico-bo/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/gatoychica.jpg": "/dentycard-policlinico-bo/static/media/gatoychica.c0567cbc852df3c25275.jpg",
+    "static/media/chica.jpg": "/dentycard-policlinico-bo/static/media/chica.e1c8a63d3d4009adb6ad.jpg",
+    "static/media/sonrisa.jpg": "/dentycard-policlinico-bo/static/media/sonrisa.46f7f324eb076fb63186.jpg",
+    "static/media/fa-brands-400.woff2": "/dentycard-policlinico-bo/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/myriadwebpro-light.ttf": "/dentycard-policlinico-bo/static/media/myriadwebpro-light.25779e96f3ba1b4a9b74.ttf",
+    "static/media/dentycard-logo.png": "/dentycard-policlinico-bo/static/media/dentycard-logo.683e80e7a498fab5c35b.png",
+    "static/media/myriadwebpro-bold.ttf": "/dentycard-policlinico-bo/static/media/myriadwebpro-bold.da14ca61b2ec7f23bed1.ttf",
+    "static/media/myriadwebpro-condenseditalic.ttf": "/dentycard-policlinico-bo/static/media/myriadwebpro-condenseditalic.2b6aa9e22218c3158025.ttf",
+    "static/media/myriadwebpro.ttf": "/dentycard-policlinico-bo/static/media/myriadwebpro.0c61fa157b02ffb1bc01.ttf",
+    "static/media/chico.jpg": "/dentycard-policlinico-bo/static/media/chico.d4f694e10142bf4397f6.jpg",
+    "static/media/perroychico.jpg": "/dentycard-policlinico-bo/static/media/perroychico.d58b7191219c3fa5babe.jpg",
+    "static/media/radio.jpg": "/dentycard-policlinico-bo/static/media/radio.eb5603ae8e99cdf95b52.jpg",
+    "static/media/imagenCentro4.jpg": "/dentycard-policlinico-bo/static/media/imagenCentro4.00742507cc28ca2d7c78.jpg",
+    "static/media/movil.jpg": "/dentycard-policlinico-bo/static/media/movil.4f6c48bd0bba32cd269f.jpg",
+    "static/media/gafaslimpias.jpg": "/dentycard-policlinico-bo/static/media/gafaslimpias.4ebdb49151f4e0cf9ee0.jpg",
+    "static/media/muela.jpg": "/dentycard-policlinico-bo/static/media/muela.a4ac330ff12e9cf70302.jpg",
+    "static/media/flags.png": "/dentycard-policlinico-bo/static/media/flags.750161d3ebf13527a10c.png",
+    "static/media/imagenCentro1.jpg": "/dentycard-policlinico-bo/static/media/imagenCentro1.d8af97ad682e711fd6da.jpg",
+    "static/media/PAGINA LOGIN.jpg": "/dentycard-policlinico-bo/static/media/PAGINA LOGIN.fca6559dae67c7511425.jpg",
+    "static/media/imagenCentro2.jpg": "/dentycard-policlinico-bo/static/media/imagenCentro2.6fb9871a899ffc6a1426.jpg",
+    "static/media/loading.gif": "/dentycard-policlinico-bo/static/media/loading.e94752fe558dd62cac0d.gif",
+    "static/media/imagenCentro3.jpg": "/dentycard-policlinico-bo/static/media/imagenCentro3.d2a01387e195b318d8e8.jpg",
+    "static/media/isotipo.png": "/dentycard-policlinico-bo/static/media/isotipo.b07c649165e74eba216e.png",
+    "static/media/fa-v4compatibility.ttf": "/dentycard-policlinico-bo/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/dentycard-policlinico-bo/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "index.html": "/dentycard-policlinico-bo/index.html",
+    "main.1e1e08eb.css.map": "/dentycard-policlinico-bo/static/css/main.1e1e08eb.css.map",
+    "main.7c75f8f0.js.map": "/dentycard-policlinico-bo/static/js/main.7c75f8f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e1e08eb.css",
+    "static/js/main.7c75f8f0.js"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+	"scheduleType": {
+		"INACTIVE": "No schedules active",
+		"ACTIVE": "{{numSchedules}} schedule(s) active"
+	},
+	"closingPeriodDateType": {
+		"1": "One day",
+		"2": "Period"
+	},
+	"weekDays": {
+		"1": "Monday",
+		"2": "Tuesday",
+		"3": "Wednesday",
+		"4": "Thursday",
+		"5": "Friday",
+		"6": "Saturday",
+		"7": "Sunday"
+	},
+	"providerScheduleStatuses": {
+		"1": "Active",
+		"2": "Inactive"
+	},
+	"typeChannelNotification": {
+		"1": "Email",
+		"2": "SMS",
+		"3": "Whatsapp"
+	},
+	"appointmentCancellationReasons": {
+		"1": "Cancelled by the patient",
+		"2": "Cancelled for location issues",
+		"3": "Cancelled for provider issues",
+		"4": "Cancelled for patient issues"
+	},
+	"appointmentCancellationProposals": {
+		"1": "No propositions",
+		"2": "Earlier alternative: Next available date",
+		"3": "Accurate alternative: Next available date with same day and time",
+		"4": "Propose both alternatives"
+	},
+	"appointmentCancellationProposedDates": {
+		"1": "24 hours",
+		"2": "48 hours",
+		"3": "72 hours"
+	},
+	"idTypes": {
+		"DNI": "DNI",
+		"NIE": "NIE"
+	},
+	"appointmentStatus": {
+		"1": "Appointment is confirmed & paid",
+		"2": "Appointment is cancelled",
+		"3": "Appointment is proposed",
+		"4": "Appointment is done",
+		"5": "Appointment booked waiting for payment"
+	},
+	"appointmentStatusDetail": {
+		"20": "By patient",
+		"21": "By provider",
+		"70": "Patient did not show up",
+		"71": "Patient issues",
+		"72": "Provider issues",
+		"73": "Other"
+	},
+	"estimatedTimeUnits": {
+		"1": "seconds",
+		"2": "minutes",
+		"3": "hours"
+	},
+	"typeOfInputs": {
+		"1": "Radio",
+		"2": "Text",
+		"3": "Combo"
+	},
+	"typeOfDisplay": {
+		"1": "In line",
+		"2": "Block"
+	},
+	"mandatory": {
+		"1": "Optional",
+		"2": "Mandatory",
+		"3": "Mandatory if previous input",
+		"4": "Optional if previous input"
+	},
+	"valueSize": {
+		"1": "Small",
+		"2": "Medium",
+		"3": "Big"
+	}
+}

@@ -1,0 +1,114 @@
+@import "css/variables";
+@import "~antd/dist/reset.css";
+
+.appointment_status_container {
+	width: 100%;
+
+	.appointment_status_button {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		div {
+			display: flex;
+			align-items: center;
+		}
+
+		span {
+			margin-left: 0.5rem;
+			font-size: 10px;
+
+			b {
+				margin-right: 0.2rem;
+				font-size: 12px;
+			}
+		}
+
+		.appointment_history_date {
+			display: flex;
+			align-items: center;
+			color: black;
+			font-size: 12px;
+
+			svg {
+				margin-left: 0.2rem;
+			}
+		}
+
+		border:none;
+		box-shadow: none;
+		border-radius: 0;
+
+		&.confirmed {
+			//border-color: green !important;
+			color: green !important;
+		}
+		&.cancelled {
+			//border-color: red !important;
+			color: red !important;
+		}
+		&.proposed {
+			//border-color: #1890ff;
+			color: #1890ff !important;
+		}
+
+		&.payment {
+			//border-color: #fc9518 !important;
+			color: #fc9518 !important;
+		}
+	}
+}
+
+.status_history_container {
+	padding: 0 15px;
+	background-color: white;
+	box-shadow: $default-shadow-half;
+	border-radius: 5px;
+
+	.status_history {
+		padding: 5px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		div {
+			display: flex;
+			align-items: center;
+		}
+
+		span {
+			margin-left: 0.5rem;
+			font-size: 10px;
+
+			b {
+				margin-right: 0.2rem;
+				font-size: 12px;
+			}
+		}
+
+		.appointment_history_date {
+			display: flex;
+			align-items: center;
+			color: black;
+			font-size: 12px;
+
+			svg {
+				margin-left: 0.2rem;
+			}
+		}
+
+		&.confirmed {
+			color: green !important;
+		}
+		&.cancelled {
+			color: red !important;
+		}
+		&.payment {
+			color: #fc9518 !important;
+		}
+		&.proposed {
+			color: #1890ff !important;
+		}
+	}
+}

@@ -1,0 +1,77 @@
+@import "css/variables";
+
+.provider__details__modal {
+	min-width: 900px;
+
+	@media (max-width: 900px) {
+		min-width: 768px;
+	}
+
+	@media (max-width: 768px) {
+		min-width: 0px;
+	}
+}
+
+.provider-card-info {
+	position: relative;
+	display: flex;
+	align-items: center;
+
+	.provider-card-photo {
+		margin-right: $padding-container;
+		border-radius: 50%;
+		overflow: hidden;
+		cursor: pointer;
+
+		img {
+			width: 70px;
+			height: 70px;
+
+			@media (max-width: 768px) {
+				width: 60px;
+				height: 60px;
+			}
+
+			@media (max-width: 480px) {
+				width: 50px;
+				height: 50px;
+			}
+		}
+
+		.icon {
+			width: 70px;
+			height: 70px;
+			color: $color-neutral;
+
+			@media (max-width: 768px) {
+				width: 60px;
+				height: 60px;
+			}
+
+			@media (max-width: 480px) {
+				width: 50px;
+				height: 50px;
+			}
+		}
+	}
+
+	.provider__card__info__name {
+		color: $color-primary-text;
+		font-size: 1.2rem;
+		font-weight: bold;
+		cursor: pointer;
+
+		@media (max-width: 768px) {
+			font-size: 1rem;
+		}
+	}
+
+	.provider__card__info__speciality {
+		color: $color-neutral;
+		font-size: 0.9rem;
+
+		@media (max-width: 768px) {
+			font-size: 0.75rem;
+		}
+	}
+}

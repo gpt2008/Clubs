@@ -1,0 +1,124 @@
+{
+	"scheduleType": {
+		"INACTIVE": "No hay horarios activos",
+		"ACTIVE": "{{numSchedules}} horario(s) activo(s)"
+	},
+	"closingPeriodDateType": {
+		"1": "Un día",
+		"2": "Período"
+	},
+	"weekDays": {
+		"1": "Lunes",
+		"2": "Martes",
+		"3": "Miércoles",
+		"4": "Jueves",
+		"5": "Viernes",
+		"6": "Sábado",
+		"7": "Domingo"
+	},
+	"providerScheduleStatuses": {
+		"1": "Activo",
+		"2": "Inactivo"
+	},
+	"petType": {
+		"1": "Perro",
+		"2": "Gato",
+		"3": "Hurón"
+	},
+	"typeChannelNotification": {
+		"1": "Correo electrónico",
+		"2": "SMS",
+		"3": "Whatsapp"
+	},
+	"appointmentCancellationReasons": {
+		"20": "Cancelado por el paciente",
+		"21": "Cancelado por el proveedor",
+		"70": "Cancelado por problemas de ubicación",
+		"72": "Cancelado por problemas del proveedor",
+		"71": "Cancelado por problemas del paciente",
+		"73": "Otro"
+	},
+	"appointmentCancellationProposals": {
+		"1": "Sin propuestas",
+		"2": "Alternativa anterior: Próxima fecha disponible",
+		"3": "Alternativa precisa: Próxima fecha disponible con el mismo día y hora",
+		"4": "Proponer ambas alternativas"
+	},
+	"appointmentCancellationProposedDates": {
+		"1": "24 horas",
+		"2": "48 horas",
+		"3": "72 horas"
+	},
+	"idTypes": {
+		"DNI": "DNI",
+		"NIE": "NIE"
+	},
+	"appointmentStatus": {
+		"1": "Cita confirmada y pagada",
+		"2": "Cita cancelada",
+		"3": "Cita propuesta",
+		"4": "Cita realizada",
+		"5": "Cita reservada esperando pago",
+		"6": "Propuesta expirada",
+		"7": "No realizada"
+	},
+	"appointmentStatusDetail": {
+		"20": "Por el paciente",
+		"21": "Por el proveedor",
+		"30": "Por el profesional",
+		"31": "Por el paciente",
+		"70": "Paciente no presentado",
+		"71": "Problemas del paciente",
+		"72": "Problemas del proveedor",
+		"73": "Otro"
+	},
+	"questionnaireType": {
+		"1": "Cuestionario Inicial",
+		"2": "Cuestionario de Evaluación",
+		"3": "Cuestionario de Tareas"
+	},
+	"reportPeriodValues": {
+		"1": "Month",
+		"2": "Quarter",
+		"3": "Year"
+	},
+	"placeHolders": {
+		"enterName": "Introduce el nombre"
+	},
+	"estimatedTimeUnits": {
+		"1": "segundos",
+		"2": "minutos",
+		"3": "horas"
+	},
+	"typeOfInputs": {
+		"1": "Radio",
+		"2": "Texto",
+		"3": "Combo",
+		"4": "Caras",
+		"5": "Estrellas"
+	},
+	"typeOfDisplay": {
+		"1": "En linea",
+		"2": "Bloque"
+	},
+	"mandatory": {
+		"1": "Opcional",
+		"2": "Obligatorio",
+		"3": "Obligatorio si hay entrada previa",
+		"4": "Opcional si hay entrada previa"
+	},
+	"valueSize": {
+		"1": "Pequeño",
+		"2": "Mediano",
+		"3": "Grande"
+	},
+    "languageCodes": {
+        "es": "Español",
+        "en": "Inglés",
+		"it": "Italiano",
+        "ca": "Catalán",
+        "fr": "Francés",
+        "po": "Portugués",
+        "al": "Alemán"
+    }
+}
